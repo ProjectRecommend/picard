@@ -104,9 +104,12 @@ MUSICBRAINZ_SERVERS = [
 # Plugins API
 PLUGINS_API = {
     'host': 'picard.musicbrainz.org',
-    'port': 80,
+    'port': 443,
     'endpoint': {
         'plugins': '/api/v1/plugins/',
         'download': '/api/v1/download/'
     }
 }
+
+# Default query limit
+QUERY_LIMIT = 25
